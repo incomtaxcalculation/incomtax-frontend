@@ -1,0 +1,56 @@
+import {
+  FileText,
+  UserCircle,
+  Laptop,
+  Briefcase,
+  Building2,
+  ShieldCheck,
+  PencilLine,
+  Inbox,
+  BadgeCheck,
+  IdCard,
+  User,
+  Users,
+  Factory,
+  Send,
+  Clock,
+  Zap,
+  UserCheck,
+  Lock,
+  Headphones,
+  FileWarning,
+  Landmark,
+  ScrollText,
+  Library,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+
+const iconMap: Record<string, LucideIcon> = {
+  "file-text": FileText,
+  "user-circle": UserCircle,
+  laptop: Laptop,
+  briefcase: Briefcase,
+  "building-2": Building2,
+  "shield-check": ShieldCheck,
+  "pencil-line": PencilLine,
+  inbox: Inbox,
+  "badge-check": BadgeCheck,
+  "id-card": IdCard,
+  user: User,
+  users: Users,
+  factory: Factory,
+  send: Send,
+  clock: Clock,
+  zap: Zap,
+  "user-check": UserCheck,
+  lock: Lock,
+  headphones: Headphones,
+  "file-warning": FileWarning,
+  landmark: Landmark,
+  "scroll-text": ScrollText,
+  library: Library,
+};
+
+export function resolveIcon(name: string): LucideIcon {
+  return iconMap[name] || FileText;
+}

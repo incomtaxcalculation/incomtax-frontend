@@ -1,0 +1,1066 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "slug": "tax-registration",
+      "title": "Income Tax Registration in Pakistan",
+      "short_description": "Get your National Tax Number (NTN) and register with FBR quickly and hassle-free. We handle the complete FBR registration process for individuals, freelancers, and businesses across Pakistan.",
+      "icon": "receipt-text",
+      "featureImage": "/Services/income-tax-registration.jpeg",
+      "featureImageAlt": "Income Tax Registration in Pakistan",
+      "author": "Navigate Business",
+      "seo_title": "Income Tax Registration in Pakistan",
+      "seo_description": "Get your National Tax Number (NTN) and register with FBR quickly and hassle-free.",
+      "focus_keyword": "Income Tax Registration Pakistan",
+      "badge": "FBR REGISTRATION SERVICE",
+      "heroDescription": "Get your National Tax Number (NTN) and register with FBR quickly and hassle-free. We handle the complete FBR registration process for individuals, freelancers, and businesses across Pakistan.",
+      "primaryButton": "Apply for Income Tax Registration",
+      "secondaryButton": "Free Consultation",
+      "trustPoints": [
+        "FBR Compliant",
+        "Fast Processing",
+        "Trusted by Hundreds"
+      ],
+      "solutionIntro": "We simplify the entire income tax registration process so you can focus on your business while we handle FBR compliance.",
+      "commonProblems": [
+        {
+          "text": "Confusing FBR registration process"
+        },
+        {
+          "text": "NTN application delays"
+        },
+        {
+          "text": "Incorrect or incomplete information"
+        },
+        {
+          "text": "Lack of expert guidance"
+        },
+        {
+          "text": "Unnecessary visits to FBR offices"
+        }
+      ],
+      "solutions": [
+        {
+          "text": "Expert guidance at every step"
+        },
+        {
+          "text": "Accurate documentation & submission"
+        },
+        {
+          "text": "Fast processing and follow-ups"
+        },
+        {
+          "text": "100% compliance with FBR requirements"
+        }
+      ],
+      "includedServices": [
+        {
+          "title": "NTN Registration",
+          "description": "Complete NTN registration with FBR for individuals and businesses.",
+          "icon": "file-text"
+        },
+        {
+          "title": "FBR Profile Creation",
+          "description": "Professional setup of your FBR online profile and credentials.",
+          "icon": "user-circle"
+        },
+        {
+          "title": "Freelancer Tax Registration",
+          "description": "Specialized registration support for freelancers and professionals.",
+          "icon": "laptop"
+        },
+        {
+          "title": "Salaried Individual Registration",
+          "description": "Hassle-free income tax registration for salaried employees.",
+          "icon": "briefcase"
+        },
+        {
+          "title": "Business Tax Registration",
+          "description": "Full business and company tax registration with FBR compliance.",
+          "icon": "building-2"
+        },
+        {
+          "title": "Taxpayer Status Activation",
+          "description": "Activation of active taxpayer status for maximum tax benefits.",
+          "icon": "shield-check"
+        }
+      ],
+      "processSteps": [
+        {
+          "step": 1,
+          "title": "Share Your Details",
+          "description": "Provide your CNIC, contact details, and business information securely.",
+          "icon": "pencil-line"
+        },
+        {
+          "step": 2,
+          "title": "We Prepare Your Application",
+          "description": "Our experts prepare and review your complete FBR registration application.",
+          "icon": "inbox"
+        },
+        {
+          "step": 3,
+          "title": "FBR Verification & Approval",
+          "description": "We submit your application and follow up with FBR until approval.",
+          "icon": "shield-check"
+        },
+        {
+          "step": 4,
+          "title": "Receive Your NTN",
+          "description": "Get your NTN certificate and active taxpayer status confirmation.",
+          "icon": "id-card"
+        }
+      ],
+      "documentRequirements": [
+        {
+          "applicantType": "Individual (Sole Proprietor)",
+          "icon": "user",
+          "documents": [
+            "CNIC Copy",
+            "Active Mobile Number",
+            "Email Address",
+            "Residential Address Proof"
+          ]
+        },
+        {
+          "applicantType": "Freelancer / Professional",
+          "icon": "users",
+          "documents": [
+            "CNIC Copy",
+            "Bank Account Details / Proof",
+            "Email Address",
+            "Freelance Work Proof (Optional)"
+          ]
+        },
+        {
+          "applicantType": "Business / Company",
+          "icon": "factory",
+          "documents": [
+            "CNIC of Owners/Directors",
+            "Business Name & Nature",
+            "Business Address Proof",
+            "Incorporation Documents",
+            "Bank Account Details"
+          ]
+        }
+      ],
+      "timelineMetrics": [
+        {
+          "label": "Application Submission",
+          "value": "Same Day",
+          "icon": "send"
+        },
+        {
+          "label": "FBR Processing",
+          "value": "1 - 3 Working Days",
+          "icon": "clock"
+        },
+        {
+          "label": "NTN Issuance",
+          "value": "After Approval",
+          "icon": "shield-check"
+        }
+      ],
+      "fastProcessingText": "Fast Processing Available. We ensure quick submission and timely follow-ups.",
+      "whyChooseFeatures": [
+        {
+          "title": "Experienced Tax Consultants",
+          "description": "Seasoned professionals with deep FBR knowledge.",
+          "icon": "user-check"
+        },
+        {
+          "title": "100% FBR Compliance",
+          "description": "Every submission meets current FBR requirements.",
+          "icon": "shield-check"
+        },
+        {
+          "title": "Quick Processing",
+          "description": "Fast turnaround with proactive follow-ups.",
+          "icon": "zap"
+        },
+        {
+          "title": "Support for Freelancers & Businesses",
+          "description": "Tailored solutions for every taxpayer type.",
+          "icon": "users"
+        },
+        {
+          "title": "Secure Documentation",
+          "description": "Your data is handled with complete confidentiality.",
+          "icon": "lock"
+        },
+        {
+          "title": "Dedicated Client Support",
+          "description": "Personal assistance from start to NTN issuance.",
+          "icon": "headphones"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Muhammad Bilal",
+          "designation": "Freelancer",
+          "content": "Navigate Business made my NTN registration incredibly easy. Their team handled everything professionally and I received my NTN within days.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Sana Farooq",
+          "designation": "Business Owner",
+          "content": "Excellent service! They guided me through the entire FBR registration process. Highly recommended for anyone needing tax registration in Pakistan.",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Adeel Khan",
+          "designation": "Salaried Professional",
+          "content": "Professional, fast, and reliable. I was struggling with FBR registration on my own until I found Navigate Business. Worth every penny.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Fatima Ahmed",
+          "designation": "Freelancer",
+          "content": "As a freelancer, I was always confused about taxes. This team simplified everything and got my registration done without any hassle.",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Usman Choudhry",
+          "designation": "Small Business Owner",
+          "content": "Professional, efficient, and incredibly helpful. Highly recommended for all tax-related registration needs in Pakistan.",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Ali Raza",
+          "designation": "Accountant",
+          "content": "Outstanding service! They made the entire tax filing and registration process seamless and stress-free for my clients.",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80"
+        }
+      ],
+      "struggleHeadingBefore": "Why People Struggle With",
+      "struggleHeadingHighlight": "Income Tax Registration",
+      "servicesHeadingBefore": "Our Income Tax Registration",
+      "servicesHeadingHighlight": "Services",
+      "servicesHeadingAfter": " Include",
+      "processHeadingBefore": "Our Simple Registration",
+      "processHeadingHighlight": "Process",
+      "whyChooseHeadingBefore": "Why Choose",
+      "whyChooseHeadingHighlight": "Us?",
+      "testimonialsTitle": "What Our Clients Say",
+      "requiredDocsTitle": "Required Documents for Income Tax Registration",
+      "timeRequiredTitle": "Time Required for Income Tax Registration",
+      "ctaTitle": "Ready to Register Your",
+      "ctaHighlight": "Tax?",
+      "ctaDescription": "Don't delay your registration. Get professional assistance today.",
+      "ctaApplyButton": "Apply Now",
+      "ctaPhone": "+923137937530",
+      "ctaWhatsapp": "923137937530",
+      "ctaCallButton": "Call Now",
+      "ctaWhatsappButton": "WhatsApp Us"
+    },
+    {
+      "id": 2,
+      "slug": "sales-tax-registration",
+      "title": "Sales Tax Registration in Pakistan",
+      "short_description": "Get your Sales Tax Registration Number (STRN) from FBR quickly and hassle-free. We handle the complete FBR IRIS sales tax registration process for individuals, partnerships, AOPs, and companies across Pakistan.",
+      "icon": "receipt-text",
+      "featureImage": "",
+      "featureImageAlt": "Sales Tax Registration in Pakistan",
+      "author": "Navigate Business",
+      "seo_title": "Sales Tax Registration in Pakistan",
+      "seo_description": "Get your Sales Tax Registration Number (STRN) from FBR quickly and hassle-free.",
+      "focus_keyword": "Sales Tax Registration Pakistan",
+      "badge": "FBR STRN SERVICE",
+      "heroDescription": "Get your Sales Tax Registration Number (STRN) from FBR quickly and hassle-free. We handle the complete FBR IRIS sales tax registration process for individuals, partnerships, AOPs, and companies across Pakistan.",
+      "primaryButton": "Apply for Sales Tax Registration",
+      "secondaryButton": "Free Consultation",
+      "trustPoints": [
+        "100% FBR Compliant",
+        "Fast Processing 7\u201310 Working Days",
+        "Trusted by Businesses & Clients"
+      ],
+      "solutionIntro": "We handle the complete sales tax registration process on your behalf so you can avoid delays, mistakes, and unnecessary stress.",
+      "commonProblems": [
+        {
+          "text": "Confusing FBR IRIS registration process"
+        },
+        {
+          "text": "Incorrect or incomplete documents"
+        },
+        {
+          "text": "Delays in document verification"
+        },
+        {
+          "text": "Objections from FBR"
+        },
+        {
+          "text": "Lack of expert guidance"
+        },
+        {
+          "text": "Difficulty understanding STRN requirements"
+        }
+      ],
+      "solutions": [
+        {
+          "text": "Expert guidance at every step"
+        },
+        {
+          "text": "Accurate documentation & submission"
+        },
+        {
+          "text": "FBR IRIS application handling"
+        },
+        {
+          "text": "Follow-up until approval"
+        },
+        {
+          "text": "100% compliance with FBR requirements"
+        }
+      ],
+      "includedServices": [
+        {
+          "title": "Sales Tax Registration",
+          "description": "Get your Sales Tax Registration Number quickly and professionally.",
+          "icon": "file-text"
+        },
+        {
+          "title": "STRN Application Filing",
+          "description": "We prepare and submit your FBR IRIS application.",
+          "icon": "inbox"
+        },
+        {
+          "title": "Individual / Sole Proprietor Registration",
+          "description": "Sales tax registration for sole proprietors and individuals.",
+          "icon": "user"
+        },
+        {
+          "title": "Partnership / AOP Registration",
+          "description": "Complete registration support for partnerships and AOPs.",
+          "icon": "users"
+        },
+        {
+          "title": "Company Sales Tax Registration",
+          "description": "STRN registration for private and public limited companies.",
+          "icon": "building-2"
+        },
+        {
+          "title": "FBR Objection Handling",
+          "description": "We help resolve FBR objections and documentation issues.",
+          "icon": "shield-check"
+        }
+      ],
+      "processSteps": [
+        {
+          "step": 1,
+          "title": "Share Your Details",
+          "description": "Provide your CNIC, NTN, business and bank details.",
+          "icon": "pencil-line"
+        },
+        {
+          "step": 2,
+          "title": "We Prepare Your Application",
+          "description": "Our experts prepare your Sales Tax application in FBR IRIS.",
+          "icon": "inbox"
+        },
+        {
+          "step": 3,
+          "title": "FBR Verification",
+          "description": "FBR reviews and verifies your submitted documents.",
+          "icon": "shield-check"
+        },
+        {
+          "step": 4,
+          "title": "Receive Your STRN",
+          "description": "Once approved, you receive your Sales Tax Registration Number.",
+          "icon": "id-card"
+        }
+      ],
+      "documentRequirements": [
+        {
+          "applicantType": "Individual / Sole Proprietor",
+          "icon": "user",
+          "documents": [
+            "Proprietor's CNIC",
+            "Proprietor's NTN",
+            "Business Bank Account Proof",
+            "Business Address Proof"
+          ]
+        },
+        {
+          "applicantType": "Partnership / AOP",
+          "icon": "users",
+          "documents": [
+            "Partnership Deed",
+            "CNICs of All Partners",
+            "Firm's NTN",
+            "Business Bank Account Proof",
+            "Business Address Proof"
+          ]
+        },
+        {
+          "applicantType": "Private/Public Limited Company",
+          "icon": "building-2",
+          "documents": [
+            "SECP Certificate of Incorporation",
+            "Company's NTN",
+            "AOA & MOA",
+            "CNICs of All Directors",
+            "Business Bank Account Proof",
+            "Registered Office Address Proof"
+          ]
+        }
+      ],
+      "timelineMetrics": [
+        {
+          "label": "Application Submission",
+          "value": "Immediate",
+          "icon": "send"
+        },
+        {
+          "label": "Document Verification",
+          "value": "3\u20135 Working Days",
+          "icon": "clock"
+        },
+        {
+          "label": "Registration Approval",
+          "value": "7\u201310 Working Days",
+          "icon": "shield-check"
+        },
+        {
+          "label": "Important Note",
+          "value": "Timeframes may vary based on application complexity and FBR objections.",
+          "icon": "file-warning"
+        }
+      ],
+      "fastProcessingText": "We ensure quick submission and timely follow-ups for a smooth experience.",
+      "whyChooseFeatures": [
+        {
+          "title": "Experienced Tax Consultants",
+          "description": "Seasoned professionals with deep FBR knowledge.",
+          "icon": "user-check"
+        },
+        {
+          "title": "100% FBR Compliance",
+          "description": "Every submission meets current FBR requirements.",
+          "icon": "shield-check"
+        },
+        {
+          "title": "Quick Processing",
+          "description": "Fast turnaround with proactive follow-ups.",
+          "icon": "zap"
+        },
+        {
+          "title": "Support for Businesses",
+          "description": "Tailored solutions for every business type.",
+          "icon": "building-2"
+        },
+        {
+          "title": "Secure Documentation",
+          "description": "Your data is handled with complete confidentiality.",
+          "icon": "lock"
+        },
+        {
+          "title": "Dedicated Client Support",
+          "description": "Personal assistance from start to issuance.",
+          "icon": "headphones"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Ali Raza",
+          "designation": "Business Owner",
+          "content": "Navigate Business made my sales tax registration process very easy. The team handled everything professionally.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Sana Khan",
+          "designation": "Company Owner",
+          "content": "My STRN was completed smoothly without any confusion. Highly recommended.",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Usman Ahmed",
+          "designation": "Trader",
+          "content": "Very professional team. They guided me step by step and resolved my FBR objection.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+        }
+      ],
+      "struggleHeadingBefore": "Why People Struggle With",
+      "struggleHeadingHighlight": "Sales Tax Registration",
+      "servicesHeadingBefore": "Our Sales Tax",
+      "servicesHeadingHighlight": "Services",
+      "servicesHeadingAfter": " Include",
+      "processHeadingBefore": "Our Simple Sales Tax",
+      "processHeadingHighlight": "Process",
+      "whyChooseHeadingBefore": "Why Choose",
+      "whyChooseHeadingHighlight": "Navigate Business?",
+      "testimonialsTitle": "What Our Clients Say",
+      "requiredDocsTitle": "Required Documents for Sales Tax Registration",
+      "timeRequiredTitle": "Time Required for Sales Tax Registration",
+      "ctaTitle": "Ready to Register Your",
+      "ctaHighlight": "Sales Tax?",
+      "ctaDescription": "Don\u2019t delay your STRN registration. Get professional assistance today.",
+      "ctaApplyButton": "Apply Now",
+      "ctaPhone": "+923137937530",
+      "ctaWhatsapp": "923137937530",
+      "ctaCallButton": "Call Now",
+      "ctaWhatsappButton": "WhatsApp Us"
+    },
+    {
+      "id": 3,
+      "slug": "business-registration",
+      "title": "Business Registration in Pakistan",
+      "short_description": "Start and legally register your business in Pakistan with expert assistance. We handle the complete registration process from documentation to compliance for Sole Proprietorships, Partnerships, and Private Limited Companies.",
+      "icon": "building-2",
+      "featureImage": "",
+      "featureImageAlt": "Business Registration in Pakistan",
+      "author": "Navigate Business",
+      "seo_title": "Business Registration in Pakistan",
+      "seo_description": "Start and legally register your business in Pakistan with expert assistance.",
+      "focus_keyword": "Business Registration Pakistan",
+      "badge": "SECP & FBR COMPLIANT SERVICE",
+      "heroSubtitle": "Sole Proprietorship, Partnership & Private Limited Company Registration",
+      "heroDescription": "Start and legally register your business in Pakistan with expert assistance. We handle the complete registration process from documentation to compliance for Sole Proprietorships, Partnerships, and Private Limited Companies.",
+      "primaryButton": "Apply for Business Registration",
+      "secondaryButton": "Free Consultation",
+      "trustPoints": [
+        "100% SECP & FBR Compliant",
+        "Expert Registration Support",
+        "Fast Processing",
+        "Trusted by Businesses Across Pakistan"
+      ],
+      "solutionIntro": "We simplify the complete business registration process so you can focus on growing your business while we handle all legal and regulatory requirements.",
+      "commonProblems": [
+        {
+          "text": "Confusion about choosing the right business structure"
+        },
+        {
+          "text": "Lack of knowledge about SECP and FBR procedures"
+        },
+        {
+          "text": "Incorrect documentation"
+        },
+        {
+          "text": "Delays in approvals"
+        },
+        {
+          "text": "Difficulty understanding legal requirements"
+        },
+        {
+          "text": "Post-registration compliance confusion"
+        }
+      ],
+      "solutions": [
+        {
+          "text": "Expert business structure consultation"
+        },
+        {
+          "text": "Complete documentation support"
+        },
+        {
+          "text": "SECP & FBR registration handling"
+        },
+        {
+          "text": "Compliance guidance"
+        },
+        {
+          "text": "End-to-end support"
+        }
+      ],
+      "includedServices": [
+        {
+          "title": "Sole Proprietorship Registration",
+          "description": "Complete NTN and FBR registration for individual businesses.",
+          "icon": "user"
+        },
+        {
+          "title": "Partnership Registration",
+          "description": "Partnership deed preparation and firm registration assistance.",
+          "icon": "users"
+        },
+        {
+          "title": "Private Limited Company Registration",
+          "description": "SECP company incorporation services.",
+          "icon": "building-2"
+        },
+        {
+          "title": "NTN & STRN Registration",
+          "description": "Tax registration support with FBR.",
+          "icon": "file-text"
+        },
+        {
+          "title": "Business Name Reservation",
+          "description": "Assistance with selecting and reserving company names.",
+          "icon": "pencil-line"
+        },
+        {
+          "title": "Post Registration Compliance",
+          "description": "Bank account, tax and legal compliance support.",
+          "icon": "shield-check"
+        }
+      ],
+      "businessStructures": [
+        {
+          "title": "Sole Proprietorship",
+          "description": "The simplest business structure owned and managed by one individual.",
+          "icon": "user",
+          "features": [
+            "Single owner",
+            "Easy to start",
+            "Direct FBR registration",
+            "Unlimited liability"
+          ],
+          "authority": "Federal Board of Revenue (FBR)",
+          "authorityIcon": "landmark"
+        },
+        {
+          "title": "Partnership",
+          "description": "A business structure where two or more individuals share profits and responsibilities.",
+          "icon": "users",
+          "features": [
+            "2 to 20 partners",
+            "Shared ownership",
+            "Partnership deed required",
+            "Joint management"
+          ],
+          "authority": "Registrar of Firms / SECP",
+          "authorityIcon": "scroll-text"
+        },
+        {
+          "title": "Private Limited Company",
+          "description": "A separate legal entity with limited liability.",
+          "icon": "briefcase",
+          "features": [
+            "Separate legal identity",
+            "Limited liability",
+            "Greater credibility",
+            "Suitable for growing businesses"
+          ],
+          "authority": "SECP",
+          "authorityIcon": "library"
+        }
+      ],
+      "processSteps": [
+        {
+          "step": 1,
+          "title": "Choose Business Structure",
+          "description": "We help you select the right business structure.",
+          "icon": "pencil-line"
+        },
+        {
+          "step": 2,
+          "title": "Prepare Documentation",
+          "description": "We prepare all required legal documents.",
+          "icon": "file-text"
+        },
+        {
+          "step": 3,
+          "title": "Submit Applications",
+          "description": "Applications are submitted to SECP and FBR.",
+          "icon": "send"
+        },
+        {
+          "step": 4,
+          "title": "Receive Registration Certificates",
+          "description": "Obtain legal registration certificates and tax numbers.",
+          "icon": "id-card"
+        }
+      ],
+      "documentRequirements": [
+        {
+          "applicantType": "Sole Proprietorship",
+          "icon": "user",
+          "documents": [
+            "CNIC",
+            "Mobile Number",
+            "Email Address",
+            "Business Address Proof"
+          ]
+        },
+        {
+          "applicantType": "Partnership",
+          "icon": "users",
+          "documents": [
+            "Partnership Deed",
+            "CNICs of all partners",
+            "Business Address Proof",
+            "Profit Sharing Agreement"
+          ]
+        },
+        {
+          "applicantType": "Private Limited Company",
+          "icon": "building-2",
+          "documents": [
+            "CNICs of Directors",
+            "MOA",
+            "AOA",
+            "Registered Office Address",
+            "Director Information"
+          ]
+        }
+      ],
+      "registrationAuthorities": [
+        {
+          "title": "Federal Board of Revenue (FBR)",
+          "icon": "landmark",
+          "outputs": [
+            "NTN",
+            "STRN"
+          ]
+        },
+        {
+          "title": "Registrar of Firms",
+          "icon": "scroll-text",
+          "outputs": [
+            "Partnership Registration Certificate"
+          ]
+        },
+        {
+          "title": "SECP",
+          "icon": "library",
+          "outputs": [
+            "Certificate of Incorporation"
+          ]
+        }
+      ],
+      "timelineMetrics": [
+        {
+          "label": "Document Preparation",
+          "value": "1-2 Working Days",
+          "icon": "file-text"
+        },
+        {
+          "label": "Authority Verification",
+          "value": "3-5 Working Days",
+          "icon": "shield-check"
+        },
+        {
+          "label": "Final Registration Approval",
+          "value": "5-10 Working Days",
+          "icon": "badge-check"
+        },
+        {
+          "label": "Important Note",
+          "value": "Timelines may vary depending on business type and authority requirements.",
+          "icon": "file-warning"
+        }
+      ],
+      "fastProcessingText": "We ensure quick submission and timely follow-ups for a smooth experience.",
+      "whyChooseFeatures": [
+        {
+          "title": "Experienced Consultants",
+          "description": "Seasoned professionals with deep legal and tax knowledge.",
+          "icon": "user-check"
+        },
+        {
+          "title": "100% Legal Compliance",
+          "description": "Every submission meets current regulatory requirements.",
+          "icon": "shield-check"
+        },
+        {
+          "title": "Fast Processing",
+          "description": "Fast turnaround with proactive follow-ups.",
+          "icon": "zap"
+        },
+        {
+          "title": "End-to-End Support",
+          "description": "Support from consultation to post-registration compliance.",
+          "icon": "headphones"
+        },
+        {
+          "title": "Secure Documentation",
+          "description": "Your data is handled with complete confidentiality.",
+          "icon": "lock"
+        },
+        {
+          "title": "Dedicated Customer Support",
+          "description": "Personal assistance from start to finish.",
+          "icon": "headphones"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Ali Raza",
+          "designation": "Startup Founder",
+          "content": "Navigate Business made our company registration process smooth and stress-free.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Sana Khan",
+          "designation": "Business Owner",
+          "content": "They guided us from documentation to final registration professionally.",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Usman Ahmed",
+          "designation": "Entrepreneur",
+          "content": "Highly recommended for anyone starting a business in Pakistan.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+        }
+      ],
+      "struggleHeadingBefore": "Why People Struggle With",
+      "struggleHeadingHighlight": "Business Registration",
+      "servicesHeadingBefore": "Our Business Registration",
+      "servicesHeadingHighlight": "Services",
+      "servicesHeadingAfter": " Include",
+      "structuresHeadingBefore": "Types of Business Structures",
+      "structuresHeadingHighlight": "We Register",
+      "processHeadingBefore": "Our Simple Business Registration",
+      "processHeadingHighlight": "Process",
+      "authoritiesHeadingBefore": "Registration Authorities",
+      "authoritiesHeadingHighlight": "in Pakistan",
+      "whyChooseHeadingBefore": "Why Choose",
+      "whyChooseHeadingHighlight": "Navigate Business?",
+      "testimonialsTitle": "What Our Clients Say",
+      "requiredDocsTitle": "Required Documents for Business Registration",
+      "timeRequiredTitle": "Time Required for Business Registration",
+      "ctaTitle": "Ready to Register Your",
+      "ctaHighlight": "Business?",
+      "ctaDescription": "Start your business legally and confidently with expert assistance today.",
+      "ctaApplyButton": "Apply Now",
+      "ctaPhone": "+923137937530",
+      "ctaWhatsapp": "923137937530",
+      "ctaCallButton": "Call Now",
+      "ctaWhatsappButton": "WhatsApp Us"
+    },
+    {
+      "id": 4,
+      "slug": "trademark-registration",
+      "title": "Trademark Registration in Pakistan",
+      "short_description": "Protect your brand legally in Pakistan through trademark registration. We handle the complete IPO Pakistan trademark registration process from trademark search to final registration.",
+      "icon": "badge-check",
+      "featureImage": "",
+      "featureImageAlt": "Trademark Registration in Pakistan",
+      "author": "Navigate Business",
+      "seo_title": "Trademark Registration in Pakistan",
+      "seo_description": "Protect your brand legally in Pakistan through trademark registration with IPO Pakistan.",
+      "focus_keyword": "Trademark Registration Pakistan",
+      "badge": "IPO PAKISTAN TRADEMARK SERVICE",
+      "heroDescription": "Protect your brand legally in Pakistan through trademark registration. We handle the complete IPO Pakistan trademark registration process from trademark search to final registration.",
+      "primaryButton": "Apply for Trademark Registration",
+      "secondaryButton": "Free Consultation",
+      "trustPoints": [
+        "100% IPO Compliant",
+        "Brand Protection",
+        "Trusted by Businesses Across Pakistan"
+      ],
+      "solutionIntro": "We simplify the entire trademark registration process so you can protect your brand while we handle documentation, filing and follow-ups with IPO Pakistan.",
+      "commonProblems": [
+        {
+          "text": "Confusion about trademark eligibility"
+        },
+        {
+          "text": "Trademark name already registered"
+        },
+        {
+          "text": "Incorrect application filing"
+        },
+        {
+          "text": "IPO objections and delays"
+        },
+        {
+          "text": "Difficulty selecting goods/services classes"
+        },
+        {
+          "text": "Lack of legal guidance"
+        }
+      ],
+      "solutions": [
+        {
+          "text": "Trademark availability search"
+        },
+        {
+          "text": "Complete documentation support"
+        },
+        {
+          "text": "IPO Pakistan application filing"
+        },
+        {
+          "text": "Objection handling support"
+        },
+        {
+          "text": "End-to-end trademark registration assistance"
+        }
+      ],
+      "includedServices": [
+        {
+          "title": "Trademark Search",
+          "description": "Check trademark availability before filing.",
+          "icon": "search"
+        },
+        {
+          "title": "Trademark Application Filing",
+          "description": "Professional filing with IPO Pakistan.",
+          "icon": "file-text"
+        },
+        {
+          "title": "Trademark Class Selection",
+          "description": "Selection of appropriate Nice Classification categories.",
+          "icon": "layers"
+        },
+        {
+          "title": "IPO Objection Handling",
+          "description": "Respond to examination objections professionally.",
+          "icon": "shield-alert"
+        },
+        {
+          "title": "Journal Publication Support",
+          "description": "Monitoring publication and opposition periods.",
+          "icon": "book-open"
+        },
+        {
+          "title": "Trademark Certificate Assistance",
+          "description": "Support until final trademark registration.",
+          "icon": "badge-check"
+        }
+      ],
+      "processSteps": [
+        {
+          "step": 1,
+          "title": "Trademark Search",
+          "description": "Check whether your trademark is available.",
+          "icon": "search"
+        },
+        {
+          "step": 2,
+          "title": "Prepare Documents",
+          "description": "We prepare all required application documents.",
+          "icon": "file-text"
+        },
+        {
+          "step": 3,
+          "title": "File Application",
+          "description": "Submit the application to IPO Pakistan.",
+          "icon": "send"
+        },
+        {
+          "step": 4,
+          "title": "Receive Registration",
+          "description": "Receive your trademark certificate after approval.",
+          "icon": "badge-check"
+        }
+      ],
+      "documentRequirements": [
+        {
+          "applicantType": "Individual / Business",
+          "icon": "user",
+          "documents": [
+            "Trademark Application (TM-1)",
+            "Applicant Details",
+            "Trademark Logo/Wordmark",
+            "Brand Name"
+          ]
+        },
+        {
+          "applicantType": "Company / Business",
+          "icon": "building-2",
+          "documents": [
+            "List of Goods/Services",
+            "Nice Classification",
+            "Business Details",
+            "Trademark Representation"
+          ]
+        },
+        {
+          "applicantType": "Attorney Filing",
+          "icon": "briefcase",
+          "documents": [
+            "Power of Attorney (TM-48)",
+            "Priority Documents (if applicable)",
+            "Applicant Authorization"
+          ]
+        }
+      ],
+      "timelineMetrics": [
+        {
+          "label": "Examination",
+          "value": "3 - 6 Months",
+          "icon": "search"
+        },
+        {
+          "label": "Journal Publication",
+          "value": "1 - 2 Months",
+          "icon": "book-open"
+        },
+        {
+          "label": "Opposition Period",
+          "value": "2 Months",
+          "icon": "shield-alert"
+        },
+        {
+          "label": "Final Registration",
+          "value": "6 - 12 Months",
+          "icon": "badge-check"
+        }
+      ],
+      "fastProcessingText": "We ensure accurate filing and timely follow-ups for a smooth trademark registration process.",
+      "whyChooseFeatures": [
+        {
+          "title": "Trademark Experts",
+          "description": "Professional guidance throughout the registration process.",
+          "icon": "user-check"
+        },
+        {
+          "title": "100% IPO Compliance",
+          "description": "Applications are filed according to IPO regulations.",
+          "icon": "shield-check"
+        },
+        {
+          "title": "Fast Processing",
+          "description": "Quick document preparation and filing.",
+          "icon": "zap"
+        },
+        {
+          "title": "Brand Protection",
+          "description": "Protect your brand identity nationwide.",
+          "icon": "shield"
+        },
+        {
+          "title": "Secure Documentation",
+          "description": "Your information remains confidential.",
+          "icon": "lock"
+        },
+        {
+          "title": "Dedicated Client Support",
+          "description": "Support at every stage of registration.",
+          "icon": "headphones"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Ali Raza",
+          "designation": "Business Owner",
+          "content": "Navigate Business made my trademark registration process simple and stress-free.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Sana Khan",
+          "designation": "Entrepreneur",
+          "content": "Their team professionally handled the entire IPO process.",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+        },
+        {
+          "name": "Usman Ahmed",
+          "designation": "Brand Owner",
+          "content": "Highly recommended for trademark registration in Pakistan.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+        }
+      ],
+      "struggleHeadingBefore": "Why People Struggle With",
+      "struggleHeadingHighlight": "Trademark Registration",
+      "servicesHeadingBefore": "Our Trademark",
+      "servicesHeadingHighlight": "Services",
+      "servicesHeadingAfter": " Include",
+      "processHeadingBefore": "Our Simple Trademark",
+      "processHeadingHighlight": "Process",
+      "whyChooseHeadingBefore": "Why Choose",
+      "whyChooseHeadingHighlight": "Navigate Business?",
+      "testimonialsTitle": "What Our Clients Say",
+      "requiredDocsTitle": "Required Documents for Trademark Registration",
+      "timeRequiredTitle": "Time Required for Trademark Registration",
+      "ctaTitle": "Ready to Protect Your",
+      "ctaHighlight": "Trademark?",
+      "ctaDescription": "Secure your brand identity with professional trademark registration assistance today.",
+      "ctaApplyButton": "Apply Now",
+      "ctaPhone": "+923137937530",
+      "ctaWhatsapp": "923137937530",
+      "ctaCallButton": "Call Now",
+      "ctaWhatsappButton": "WhatsApp Us"
+    }
+  ]
+}
