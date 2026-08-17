@@ -34,6 +34,9 @@ interface ImageDropZoneProps {
   onAltChange: (alt: string) => void;
   className?: string;
   fileKey?: string;
+  id?:string;
+  label?:string;
+  existingImageUrl?:string;
 }
 
 export function ImageDropZone({

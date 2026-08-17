@@ -241,10 +241,45 @@ function calculateTax25to26(amount: number): number {
   return round(taxAmount);
 }
 
+function calculateTax26to27(amount: number): number {
+  const originalAmount = amount;
+  let taxAmount = 0;
+  if (amount > 600000 && amount <= 1200000) {
+    amount -= 600000;
+    taxAmount = amount * 0.01;
+  } else if (amount > 1200000 && amount <= 2200000) {
+    amount -= 1200000;
+    taxAmount = 6000 + amount * 0.11;
+  } else if (amount > 2200000 && amount <= 3200000) {
+    amount -= 2200000;
+    taxAmount = 116000 + amount * 0.20;
+  } else if (amount > 3200000 && amount <= 4100000) {
+    amount -= 3200000;
+    taxAmount = 316000 + amount * 0.25;
+  } else if (amount > 4100000 && amount <= 5600000) {
+    amount -= 4100000;
+    taxAmount = 541000 + amount * 0.29;
+  }
+  else if (amount > 5600000 && amount <= 7000000) {
+    amount -= 5600000;
+    taxAmount = 976000 + amount * 0.32;
+  }
+  else if (amount > 7000000) {
+    amount -= 7000000;
+    taxAmount = 976000 + amount * 0.32;
+  }
+
+  // if (originalAmount > 600000) {
+  //   taxAmount = taxAmount * 0;
+  // }
+
+  return round(taxAmount);
+}
+console.log(calculateTax26to27(10000000)); // Example usage
 export type TaxYear = 
   | "2014-2015" | "2015-2016" | "2016-2017" | "2017-2018" | "2018-2019"
   | "2019-2020" | "2020-2021" | "2021-2022" | "2022-2023" | "2023-2024"
-  | "2024-2025" | "2025-2026";
+  | "2024-2025" | "2025-2026" | "2026-2027";
 
 export interface TaxResult {
   yearlyIncome: number;
@@ -268,6 +303,7 @@ const taxFunctions: Record<TaxYear, (amount: number) => number> = {
   "2023-2024": calculateTax23to24,
   "2024-2025": calculateTax24to25,
   "2025-2026": calculateTax25to26,
+  "2026-2027": calculateTax26to27,
 };
 
 export function calculateTax(salary: number, year: TaxYear): TaxResult {
@@ -293,6 +329,7 @@ export function formatCurrency(amount: number): string {
 }
 
 export const TAX_YEARS: TaxYear[] = [
+  "2026-2027",
   "2025-2026",
   "2024-2025",
   "2023-2024",
@@ -307,4 +344,4 @@ export const TAX_YEARS: TaxYear[] = [
   "2014-2015",
 ];
 
-export const CURRENT_TAX_YEAR: TaxYear = "2025-2026";
+export const CURRENT_TAX_YEAR: TaxYear = "2026-2027";

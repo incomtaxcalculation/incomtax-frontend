@@ -41,7 +41,7 @@ export default function ServicesDropdown() {
 
     const fetchStatic = async () => {
       try {
-        const res = await fetch("/data/services-static.json");
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services?limit=20&status=active`);     
         const data = await res.json();
         return (data.services || []) as Service[];
       } catch {
@@ -50,7 +50,7 @@ export default function ServicesDropdown() {
     };
 
     const fetchApi = fetch(
-      `${apiUrl}/api/services?limit=5&status=active&sort=created_at:desc`,
+      `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services?limit=20&status=active&sort=created_at:desc`,
       { signal: controller.signal },
     ).then((res) => res.json());
 

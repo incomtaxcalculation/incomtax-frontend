@@ -52,19 +52,21 @@ export default function AdminLoginPage() {
     }
 
     try {
-      const url = `/api/admin/login`;
-
+      // const url = `/api/admin/login`;
+      const url = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/admin/login`;
       const response = await fetch(url, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ email, password }),
-        credentials: "include",
+        credentials: "include"
       });
+      console.log("Response status:", response);
       const text = await response.text();
       let data;
       try {
+        console.log("Raw response text:", text);
         data = JSON.parse(text);
         console.log("Response data:", data);
       } catch (parseErr) {

@@ -1,4 +1,4 @@
-const BASE = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:5001";
+const BASE = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 export async function POST(request: Request) {
   const res = await fetch(`${BASE}/api/admin/refresh-token`, {

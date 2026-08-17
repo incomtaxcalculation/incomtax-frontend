@@ -15,6 +15,7 @@ type StatusIconProps = {
   falseIcon?: React.ReactNode;
   trueClass?: string;
   falseClass?: string;
+  status?:string;
 };
 
 const StatusIcon: React.FC<StatusIconProps> = ({

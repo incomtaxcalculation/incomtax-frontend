@@ -248,7 +248,7 @@ export default function ServicesPage() {
   const handleStatusChange = async (slug: string, newStatus: string) => {
     try {
       const res = await fetch(
-        `/api/services/${slug}`,
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${slug}`,
         {
           method: "PUT",
           headers: {
@@ -292,7 +292,7 @@ export default function ServicesPage() {
     setLoadingDelete(true);
     try {
       await fetch(
-        `/api/services/${selectedId}`,
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${selectedId}`,
         {
           method: "DELETE",
           credentials: "include",

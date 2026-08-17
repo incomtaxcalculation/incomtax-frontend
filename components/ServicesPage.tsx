@@ -34,8 +34,8 @@ export default function ServicesPage() {
     const fetchServices = async () => {
       try {
         const [apiRes, staticRes] = await Promise.all([
-          fetch(`${apiUrl}/api/services?limit=100&status=active`),
-          fetch("/data/services-static.json").catch(() => null),
+          fetch(`$${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services?limit=100&status=active`),
+          fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services?limit=100&status=active`).catch(() => null),
         ]);
 
         let merged: Service[] = [];
