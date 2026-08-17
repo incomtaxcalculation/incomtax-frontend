@@ -269,10 +269,10 @@ function clearDraft() {
 /* Auth-aware fetch: refreshes the session and retries once on a      */
 /* 401 (expired token) instead of failing the whole submit outright.  */
 /* ------------------------------------------------------------------ */
-
+const url =`${process.env.NEXT_PUBLIC_API_URL || ""}/api/admin/refresh-token`;
 async function refreshSession(): Promise<boolean> {
   try {
-    const res = await fetch("/api/admin/refresh-token/", {
+    const res = await fetch(url, {
       method: "POST",
       credentials: "include",
     });
