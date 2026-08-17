@@ -212,7 +212,7 @@ export default function BlogsPage() {
     if (!selectedId) return;
     setLoadingDelete(true);
     try {
-      const res = await fetch(`/api/blogs/${selectedId}`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/${selectedId}`, {
         method: "DELETE",
         credentials: "include",
       });
