@@ -35,7 +35,7 @@ export default function BlogListingPage() {
     let cancelled = false;
     const fetchBlogs = async () => {
       try {
-        const res = await fetch("/api/blogs?limit=50&status=published");
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs?limit=50&status=published`);
         if (!res.ok) throw new Error("Failed to load blogs");
         const data = await res.json();
         if (!cancelled) setBlogs(data.blogs || []);
