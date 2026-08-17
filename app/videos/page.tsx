@@ -40,7 +40,7 @@ export default function VideosListingPage() {
     let cancelled = false;
     const fetchVideos = async () => {
       try {
-        const res = await fetch("/api/videos?limit=50&status=published");
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/videos?limit=50&status=published`);
         if (!res.ok) throw new Error("Failed to load videos");
         const data = await res.json();
         if (!cancelled) setVideos(data.videos || []);
