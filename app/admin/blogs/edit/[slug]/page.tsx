@@ -62,7 +62,7 @@ export default function EditBlogPage({
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const res = await fetch(`/api/blogs/${slug}`, { credentials: "include" });
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/${slug}`, { credentials: "include" });
         if (res.ok) {
           const data = await res.json();
           const blog = data.blog;
@@ -115,7 +115,7 @@ export default function EditBlogPage({
       }
       setIsCheckingSlug(true);
       try {
-        const res = await fetch(`/api/blogs/check-slug/${form.slug}`, { credentials: "include" });
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/check-slug/${form.slug}`, { credentials: "include" });
         const data = await res.json();
         setSlugAvailable(!data.exists);
       } catch {
@@ -169,7 +169,7 @@ export default function EditBlogPage({
       }
 
       const res = await fetch(
-        `/api/blogs/${slug}`,
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/${slug}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },

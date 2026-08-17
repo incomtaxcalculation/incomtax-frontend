@@ -45,7 +45,7 @@ export function BlogDetailClient({ slug }: { slug: string }) {
     let cancelled = false;
     const fetchBlog = async () => {
       try {
-        const res = await fetch(`/api/blogs/${slug}`);
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/${slug}`);
         if (!res.ok) throw new Error("Blog not found");
         const data = await res.json();
         if (!cancelled) setBlog(data.blog);

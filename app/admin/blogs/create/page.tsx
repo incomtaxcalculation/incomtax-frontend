@@ -69,7 +69,7 @@ export default function CreateBlogPage() {
       if (!form.slug || form.slug.length < 2) return;
       setIsCheckingSlug(true);
       try {
-        const res = await fetch(`/api/blogs/check-slug/${form.slug}`, { credentials: "include" });
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/check-slug/${form.slug}`, { credentials: "include" });
         const data = await res.json();
         setSlugAvailable(!data.exists);
       } catch {
