@@ -54,7 +54,7 @@ export default function AdminLoginPage() {
     try {
       // const url = `/api/admin/login`;
       const url = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/admin/login`;
-      const response = await fetch(url, {
+      const response = await fetch( `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/admin/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -7,7 +7,7 @@ const BACKEND_URL =
 
 async function getBlog(slug: string) {
   try {
-    const res = await fetch(`${BACKEND_URL}/api/blogs/${slug}`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/${slug}`, {
       next: { revalidate: 60 },
     });
     if (!res.ok) return null;
