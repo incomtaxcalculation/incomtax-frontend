@@ -3,7 +3,7 @@ import Script from "next/script";
 import { BlogDetailClient } from "./BlogDetailClient";
 
 const BACKEND_URL =
-  process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:5001";
+  process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5001";
 
 async function getBlog(slug: string) {
   try {
