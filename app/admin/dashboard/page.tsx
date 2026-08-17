@@ -42,7 +42,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`/api/admin/analytics?range=${timeRange}`, { credentials: "include" })
+    fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/admin/analytics?range=${timeRange}`, { credentials: "include" })
       .then((r) => {
         if (r.status === 401) {
           window.location.href = "/admin/login";
