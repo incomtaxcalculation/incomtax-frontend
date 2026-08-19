@@ -155,8 +155,9 @@ export default function ServicesDropdown() {
                       </span>
                       <ArrowUpRight className="h-2.5 w-2.5 shrink-0 text-muted-foreground opacity-0 transition-all duration-200 group-hover:opacity-100 group-hover:text-primary" />
                     </div>
+                    
                     {service.short_description && (
-                      <p className="text-gray-500 text-sm md:text-base leading-relaxed mb-5 flex-1 line-clamp-2 font-normal">
+                      <p className="mt-0.5 text-[11px] text-muted-foreground leading-relaxed line-clamp-2">
                         {service.short_description.replace(/<[^>]*>/g, "")}
                       </p>
                     )}

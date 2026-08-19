@@ -224,6 +224,7 @@ export function ServiceDetailClient({ slug }: { slug: string }) {
   }
 
   const templateData = buildTemplateData(service);
+  const plainText = (service.heroDescription ?? service.short_description ?? "").replace(/<[^>]*>/g, "");
 
   return (
     <>
@@ -256,9 +257,8 @@ export function ServiceDetailClient({ slug }: { slug: string }) {
                     {service.heroSubtitle}
                   </p>
                 )}
-
                 <p className="text-gray-600 text-sm md:text-base max-w-xl leading-relaxed mb-8">
-                  {service.heroDescription ?? service.short_description}
+                  {plainText}
                 </p>
 
                 <div className="flex flex-wrap items-center gap-4 mb-10">
