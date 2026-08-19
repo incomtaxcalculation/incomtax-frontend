@@ -8,7 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Loader2, AlertCircle, Building2 } from "lucide-react";
 import { format } from "date-fns/format";
-
+import DOMPurify from 'isomorphic-dompurify';
 interface Service {
   id: number;
   title: string;
@@ -242,7 +242,7 @@ export default function ServicesPage() {
                           {/* Short Description */}
                           {service.short_description && (
                             <p className="text-gray-500 text-sm md:text-base leading-relaxed mb-5 flex-1 line-clamp-2 font-normal">
-                              {service.short_description}
+                              {service.short_description.replace(/<[^>]*>/g, "")}
                             </p>
                           )}
 
@@ -252,7 +252,10 @@ export default function ServicesPage() {
 
                           {/* Read More Baseline Link */}
                           <div className="mt-auto pt-2">
-                            <span className="inline-block text-black font-bold text-sm md:text-base group-hover:text-primary transition-colors duration-200">
+                            <span
+                              aria-label={`Read more about ${service.title}`}
+                              className="inline-block text-black font-bold text-sm md:text-base group-hover:text-primary transition-colors duration-200"
+                            >
                               Read More
                             </span>
                           </div>
