@@ -1,7 +1,7 @@
 const BASE = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 export async function POST(request: Request) {
-  const res = await fetch(`${BASE}/api/admin/refresh-token`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/admin/refresh-token`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

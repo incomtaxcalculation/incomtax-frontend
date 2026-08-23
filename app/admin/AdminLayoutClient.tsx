@@ -47,7 +47,7 @@ export default function AdminLayoutClient({
       setChecked(true);
       return;
     }
-    const url =`${process.env.NEXT_PUBLIC_API_URL || ""}/api/admin/refresh-token`;
+    const url =`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/admin/refresh-token`;
     fetch(url, {
       method: "POST",
       credentials: "include",
