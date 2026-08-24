@@ -27,7 +27,7 @@ export default function Footer() {
   useEffect(() => {
     const seen = new Set<string>();
 
-    fetch(`${apiUrl}/api/services?limit=6&status=active`)
+    fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services?limit=6&status=active`)
       .then((res) => res.json())
       .then((data) => {
         if (data.services) {
