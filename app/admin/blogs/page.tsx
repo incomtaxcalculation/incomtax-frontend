@@ -152,7 +152,7 @@ export default function BlogsPage() {
         queryParams.append("status", statusFilter);
       }
 
-      const res = await fetch(`/api/blogs?${queryParams.toString()}`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs?${queryParams.toString()}`, {
         credentials: "include",
       });
       const data: BlogsResponse = await res.json();
