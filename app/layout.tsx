@@ -61,6 +61,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
     <head>
+      <meta name="google-site-verification" content="NJGnkEAD1nW38oVfJfAn9XNILVf2Zh0wJeWS25zcTa4" />
       <Script id="gtm-script" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
