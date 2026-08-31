@@ -70,6 +70,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','${GTM_ID}');
           `}
       </Script>
+      <meta name="google-site-verification" content="NJGnkEAD1nW38oVfJfAn9XNILVf2Zh0wJeWS25zcTa4" />
   </head>
       <body className="min-h-full flex flex-col font-sans max-w-screen overflow-x-hidden">
         <noscript>
