@@ -1,7 +1,7 @@
 const BASE = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:5001";
 
 export async function GET(request: Request) {
-  const res = await fetch(`${BASE}/api/messages`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/messages`, {
     method: "GET",
     headers: authHeader(request),
     credentials: "include",
@@ -10,7 +10,7 @@ export async function GET(request: Request) {
 }
 
 export async function DELETE(request: Request) {
-  const res = await fetch(`${BASE}/api/messages`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/messages`, {
     method: "DELETE",
     headers: authHeader(request),
     credentials: "include",

@@ -63,7 +63,7 @@ export default function MessagesPage() {
   const fetchMessages = useCallback(async () => {
     setIsLoading(true);
     try {
-      const res = await fetch(`/api/messages`, { credentials: "include" });
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/messages`, { credentials: "include" });
       const data = await res.json();
       setMessages(data.messages || []);
     } catch (err) {
@@ -79,7 +79,7 @@ export default function MessagesPage() {
 
   const handleMarkAsRead = useCallback(async (id: string) => {
     try {
-      const res = await fetch(`/api/messages/${id}`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/messages/${id}`, {
         method: "PATCH",
         credentials: "include",
       });
