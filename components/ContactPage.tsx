@@ -17,7 +17,7 @@ export default function ContactPage() {
   const [form, setForm] = useState({
     name: "",
     email: "",
-    phone: "",
+    phone_number: "",
     subject: "",
     message: "",
   });
@@ -38,7 +38,7 @@ export default function ContactPage() {
       });
       if (!res.ok) throw new Error("Failed to send message");
       setSuccess(true);
-      setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+      setForm({ name: "", email: "", phone_number: "", subject: "", message: "" });
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong");
     } finally {
@@ -130,9 +130,9 @@ export default function ContactPage() {
                       </label>
                       <input
                         type="tel"
-                        value={form.phone}
+                        value={form.phone_number}
                         onChange={(e) =>
-                          setForm({ ...form, phone: e.target.value })
+                          setForm({ ...form, phone_number: e.target.value })
                         }
                         className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0d7a7a]/20 focus:border-[#0d7a7a] text-sm"
                         placeholder="+92 300 1234567"
