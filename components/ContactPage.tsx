@@ -245,7 +245,7 @@ export default function ContactPage() {
                         Location
                       </h3>
                       <p className="text-gray-500 text-sm">
-                        Lahore, Pakistan
+                        Office No 23, 5th Floor, Madina Heights Moulana Shoukat Ali Road, Johar Town, Lahore
                       </p>
                     </div>
                   </div>
