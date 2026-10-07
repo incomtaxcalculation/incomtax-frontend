@@ -86,7 +86,7 @@ function CreateEditorToolbar({
       if (!localSlug || localSlug.length < 2) return;
       setIsCheckingSlug(true);
       try {
-        const res = await fetch(`/api/services/check-slug/${localSlug}`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/check-slug/${localSlug}`, {
           credentials: "include",
         });
         const data = await res.json();
@@ -120,7 +120,7 @@ function CreateEditorToolbar({
     }
 
     try {
-      const res = await fetch(`/api/services`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -143,7 +143,7 @@ function CreateEditorToolbar({
 
       const result = await res.json();
 
-      const templateRes = await fetch(`/api/services/${localSlug}/template`, {
+      const templateRes = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${localSlug}/template`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
