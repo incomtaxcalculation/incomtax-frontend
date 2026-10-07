@@ -126,8 +126,7 @@ export default function CreateBlogPage() {
         coverImageUrl = await uploadFile(currentFile, "blogs");
       }
 
-      const res = await fetch(
-        `/api/blogs`,
+      const res = await await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/check-slug/${form.slug}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
