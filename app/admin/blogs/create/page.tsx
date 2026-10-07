@@ -148,6 +148,7 @@ export default function CreateBlogPage() {
       );
 
       const data = await res.json();
+      console.log("Response data:", data);
       if (res.ok) {
         toast.success("Blog created successfully!");
         clearCurrentFile();
