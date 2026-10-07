@@ -126,7 +126,7 @@ export default function CreateBlogPage() {
         coverImageUrl = await uploadFile(currentFile, "blogs");
       }
 
-      const res = await await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs/check-slug/${form.slug}`,
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/blogs`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -148,7 +148,6 @@ export default function CreateBlogPage() {
       );
 
       const data = await res.json();
-      console.log("Response data:", data);
       if (res.ok) {
         toast.success("Blog created successfully!");
         clearCurrentFile();
