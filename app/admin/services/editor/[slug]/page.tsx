@@ -74,7 +74,7 @@ function EditorLoader({ slug }: { slug: string }) {
     let cancelled = false;
     const fetchData = async () => {
       try {
-        const res = await fetch(`/api/services/${slug}`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${slug}`, {
           credentials: "include",
         });
         if (!res.ok) throw new Error("Service not found");
@@ -132,7 +132,7 @@ function EditorLoader({ slug }: { slug: string }) {
           <Button
             onClick={async () => {
               try {
-                const res = await fetch(`/api/services/${slug}/template`, {
+                const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${slug}/template`, {
                   method: "PUT",
                   headers: { "Content-Type": "application/json" },
                   credentials: "include",
