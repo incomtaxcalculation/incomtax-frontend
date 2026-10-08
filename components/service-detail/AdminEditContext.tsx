@@ -46,7 +46,7 @@ export function AdminEditProvider({
     if (!templateData) return;
     setSaving(true);
     try {
-      const res = await fetch(`/api/services/${serviceSlug}/template`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${serviceSlug}/template`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

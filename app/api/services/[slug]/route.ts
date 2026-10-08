@@ -13,7 +13,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
 export async function PUT(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const body = await request.json();
-  const res = await fetch(`${BASE}/api/services/${slug}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${slug}`, {
     method: "PUT",
     headers: { "Content-Type": "application/json", ...authObj(request) },
     body: JSON.stringify(body),
@@ -24,7 +24,7 @@ export async function PUT(request: Request, { params }: { params: Promise<{ slug
 
 export async function DELETE(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const res = await fetch(`${BASE}/api/services/${slug}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${slug}`, {
     method: "DELETE",
     headers: authHeader(request),
     credentials: "include",

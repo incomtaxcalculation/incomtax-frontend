@@ -5,7 +5,7 @@ const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ;
 
 async function getService(slug: string) {
   try {
-    const res = await fetch(`${API_BASE}/api/services/${slug}`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services/${slug}`, {
       next: { revalidate: 60 },
     });
     if (!res.ok) return null;
