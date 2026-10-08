@@ -475,7 +475,7 @@ export default function CreateServicePage() {
         })),
       };
 
-      const res = await fetchWithAuthRetry("/api/services", {
+      const res = await fetchWithAuthRetry(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/services`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include",
