@@ -436,7 +436,9 @@
 .blog-content p {
   margin-bottom: 1.6rem;
 }
-
+.blog-content ul {
+    list-style: inherit;
+}
 /* ---------------- LISTS ---------------- */
 
 .blog-content ul,
